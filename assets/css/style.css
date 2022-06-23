@@ -171,11 +171,11 @@ h4{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	
 }
 .about-text h2{
 	color: white;
 	font-size: 75px;
-	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 .about-text h5{
@@ -183,7 +183,6 @@ h4{
 	letter-spacing: 2px;
 	font-size: 22px;
 	margin-bottom: 25px;
-	text-transform: capitalize;
 }
 .about-text p{
 	color: #fcfc;
@@ -327,27 +326,6 @@ p {
 		
 	  }
 
-	.about img {
-		max-width: 100%;
-	}
-
-
-	img {
-		max-width: 100%
-	}
-
-	.about text {
-		font-size: 5px;;
-	}
-
-	.about h2 {
-		font-size: 20px;
-	}
-
-	.about h5 {
-		font-size: 20px;
-	}
-
 	body {
 		font-family: Manrope,sans-serif;
 		font-kerning: normal;
@@ -432,7 +410,7 @@ p {
 	}
 
 	.to-top {
-		font-size: zpx;
+		font-size: 20px;
 	}
 
 	nav {
@@ -463,28 +441,30 @@ p {
 		flex-direction: column;
 	}
 
+	.about-text h2 {
+		padding-bottom: 100px;
+		position: ;
+		display: flex;
+		text-align: center;
+		font-size: 10rem;
+		max-width: 25em;
+		margin-right: 3.5em;
+		justify-content: center;
+		
+    	
+	}
+	
+
 	.main {
+		
 		display: flex;
 		flex-direction: column-reverse;
     	align-items: flex-start;
 	}
 
-	.about {
-		width: 100%;
-		display: flex;
-	}
-
-	.about-text h2 {
-		display: flex;
-		text-align: center;
-    	margin-bottom: 3rem;
-		font-size: 40px;
-		width: 100%;
-		justify-content: center;
-		
-	}
 
 	.about-text h5 {
+		padding-bottom: 30px ;
 		display: flex;
 		flex-wrap: wrap;
    		align-items: center;
@@ -499,15 +479,12 @@ p {
 		margin-left: 0;
 	}
 
-	.about-text {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-	}
+
 
 	.about img {
 		max-width: 100%;
 		display: flex;
+
 	}
 
 	.box {
