@@ -1,0 +1,586 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+}	
+
+/* Contact Me sectoin START */
+.contact-me{
+	width: 100%;
+	padding: 15px 0px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+  .contact-form input {
+	display: block;
+	padding: 10px 150px;
+	font-size: 16px;
+	margin-bottom: 15px;
+	border-radius: 30px;
+	background-color: rgba(255,255,255, 0.75);
+  }
+
+  .contact-form textarea {	
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	border-radius: 30px;
+	background-color: rgba(255,255,255, 0.75);
+  }
+
+  .contact-form label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: #f9004d;
+  }
+
+
+  .send-btn {
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 30px;
+  }
+
+  .btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+
+  .contact-me h2 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+  }
+
+ /* Contact Me sectoin ENDS */
+
+.run-buddy img {
+	max-width: 80%;
+    max-height: 80%;
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+/* About Me sectoin STARTS */
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+.projects{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.view-btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	top: 40px;
+	position: relative;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+
+.view-btn:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	display: flex;
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.run-buddy img {
+    max-width: 80%;
+    max-height: 80%;
+    filter: brightness(80%);
+    transition: 0.5s;
+}
+
+/* About Me sectoin ENDS */
+
+/* Footer sectoin STARTS */
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: #101010;
+	display: flex;
+	align-items: flex-end;
+    justify-content: center;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+	position: absolute;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
+/* Footer sectoin ENDS */
+
+	
+@media (max-width: 576px){
+
+	html {
+		font-size: 5px;
+		max-width: 100%;
+		align-items: center;
+		background-color: #101010;
+		
+	  }
+
+	.about img {
+		max-width: 100%;
+	}
+
+
+	img {
+		max-width: 100%
+	}
+
+	.about text {
+		font-size: 5px;;
+	}
+
+	.about h2 {
+		font-size: 20px;
+	}
+
+	.about h5 {
+		font-size: 20px;
+	}
+
+	body {
+		font-family: Manrope,sans-serif;
+		font-kerning: normal;
+		text-rendering: optimizeSpeed;
+		text-size-adjust: 100%;
+		-webkit-font-smoothing: antialiased;
+		overscroll-behavior-y: none;
+		color: var(--color-white);
+	}
+
+	
+
+}
+
+
+@media screen and (max-width: 980px) {
+	.hero {
+		padding-bottom: 0;
+		justify-content: center;
+		position: relative;
+		width: 100%;
+	}
+  
+	nav {
+		display: flex;
+		width: 100%;
+		text-align: center;
+		flex-wrap: wrap;
+    	flex-direction: column;
+    	align-items: center;
+	}
+  
+	.hero nav ul {
+		margin-top: 20px;
+		width: 100%;
+		justify-content: center;
+		
+	}
+  
+	.hero nav ul li a {
+		font-size: 10px;
+		display: flex;
+		
+	}
+  
+	footer h2, footer div {
+		text-align: center;
+		width: 100%;
+	}
+  
+	.hero-cta, .hero-form {
+		width: 100%;
+	}
+  
+	.hero-cta {
+		text-align: center;
+	}
+  
+	.section-title {
+		width: 80%;
+	}
+  
+	.card {
+		flex: 0 70%;
+	}
+  
+	.contact-info iframe {
+		flex: 1 100%;
+	}
+  }
+  
+  @media screen and (max-width: 768px) {
+
+	
+
+	.hero {
+		display: flex;
+		padding-bottom: 0;
+		justify-content: center;
+		position: relative;
+		width: 100%;
+	}
+
+	.to-top {
+		font-size: zpx;
+	}
+
+	nav {
+		padding: 5px;
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+    	flex-direction: column;
+    	align-items: center;
+		justify-content: flex-end;
+	}
+
+	nav h2 {
+		display: none;
+	}
+
+	nav ul {
+		display: flex;
+		align-items: center;
+	}
+
+	.btn	{
+	font-size:8px;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main {
+		display: flex;
+		flex-direction: column-reverse;
+    	align-items: flex-start;
+	}
+
+	.about {
+		width: 100%;
+		display: flex;
+	}
+
+	.about-text h2 {
+		display: flex;
+		text-align: center;
+    	margin-bottom: 3rem;
+		font-size: 40px;
+		width: 100%;
+		justify-content: center;
+		
+	}
+
+	.about-text h5 {
+		display: flex;
+		flex-wrap: wrap;
+   		align-items: center;
+    	align-content: flex-start;
+	}
+
+	.about-text p {
+		text-align: center;
+		font-size: 3rem;
+		max-width: 25em;
+		margin-top: 2em;
+		margin-left: 0;
+	}
+
+	.about-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	.about img {
+		max-width: 100%;
+		display: flex;
+	}
+
+	.box {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		
+	}
+
+	.projects h2 {
+		display: flex;
+		font-size: 50px;
+		width: 100%;
+    	justify-content: center;
+  }
+
+  .contact-me h2 {
+	display: flex;
+	
+}  
+
+.contact-form input {
+	padding: 10px 85px;
+	width: 100%;
+	display: flex;
+}
+	.contact-me {
+		display: flex;
+		
+	}  
+
+	.contact-btn {
+		display: flex;
+		font-size: 10px;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	.social {
+		display: flex;
+		
+	}
+
+	.view-btn {
+		font-size: 10px;
+		padding: 10px 25px;
+		display: flex;
+	}
+
+	.run-buddy {
+		padding: 40px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		
+	}
+
+	.run-buddy img {
+		max-width: 100%;
+		max-height: 100%;
+		filter: brightness(100%);
+		transition: 0.5s;
+	}
+
+	.run-buddy h3 {
+		display: flex;
+		font-size: 30px;
+		margin: 20px 0px;
+		flex-direction: column-reverse;
+	}
+
+}
+
+
+
