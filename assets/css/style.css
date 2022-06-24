@@ -113,6 +113,20 @@ h4{
 
 
   .send-btn {
+	display: flex;
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 30px;
+  }
+
+  .send-button {
+	display: flex;
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -271,22 +285,8 @@ footer {
     justify-content: center;
 }
 
-footer p:nth-child(2) {
-    color: white;
-    font-size: 17px;
-    width: 500px;
-    text-align: center;
-    line-height: 26px;
-	position: absolute;
-}
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 .social{
 	display: flex;
 }
@@ -307,12 +307,7 @@ p {
 	transform: scale(1.3);
 	transition: .3s;
 }
-.end{
-	position: absolute;
-	color:#f9004d;
-	bottom: 35px;
-	font-size: 14px; 
-}
+
 /* Footer sectoin ENDS */
 
 	
@@ -369,11 +364,6 @@ p {
 		font-size: 10px;
 		display: flex;
 		
-	}
-  
-	footer h2, footer div {
-		text-align: center;
-		width: 100%;
 	}
   
 	.hero-cta, .hero-form {

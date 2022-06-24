@@ -13,25 +13,34 @@
 
 	<div id="hero" class="hero">
 		<nav>
-			
+
 		<ul>
 				<li>
+
 					<a href="#home">Home</a>
+
 				</li>
 
 				<li>
+
 					<a href="#about-me">About Me</a>
+
 				</li>
 
 				<li>
+
 					<a href="#projects">Projects</a>
+
 				</li>
 
 				<li
+
 				><a href="#contact-me">Contact Me</a>
+
 			</li>
 
 		</ul>
+
 			<a href="https://my.indeed.com/p/shawnj-rrsegny/preview" class="btn">Resume</a>
 			
 		</nav>
@@ -40,7 +49,9 @@
 
 		<div id="home" class="content">
 			<h4>Hello, my name is</h4>
+
 			<h1>Shawn <span>Joseph</span></h1>
+
 			<h3>I'am a Web Developer.</h3>
 			
 		</div>
@@ -49,20 +60,30 @@
 	<!----About me section start---->
 	<section id="about-me" class="about" >
 		<div class="main">
+
 			<img src="assets/img/main-img.png">
+
 			<div class="about-text">
+
 				<h2>About Me</h2>
-				<h5>Developer <span> &Designer</span></h5>
-				<p>Hello, my name is Shawn Joseph! I'm a current student at the University of Miami with a goal to be a software engineer. 
-					I have been learning and growing in programming since the beginning of 2020, 
-					and I am experienced with several coding languages like HTML, CSS , React.js and I am very familiar with backend work as well. 
-					I am currently employed as a smart contract developer, but I am looking for a position where I can further expand my current skills, 
-					work with developed mentors, and learn how to master myself every day with every project and every opportunity.</p>
+
+				<h5>
+					Developer <span> &Designer</span>
+				</h5>
+
+				<p>Hello, my name is Shawn Joseph. I’m from Miami Florida but I currently reside in Boston Massachusetts. 
+                    The city is pretty busy, so one of my main hobbies is driving around and having fun with my car as I am a car enthusiast. 
+                    Some of my other hobbies are making music in my free time, producing music for others and on my spare time i love to build gaming computers for either friends of mine or clients. 
+                    I'm a current student at the University of Miami, I have been learning and growing in programming since the beginning of 2020, 
+                    and I am experienced with several coding languages like HTML, CSS , and I am familiar with backend work as well. 
+                    I am currently employed as a smart contract developer, but I am looking for a position where I can further expand my current skills, 
+                    work with developed mentors, and learn how to master myself every day with every project and every opportunity.</p>
 			</div>
 		</div>
 	</section>
 
 	<!-----project section start----------->
+	<section> 
 	<div id="projects" class="projects" >
 
 		<div class="title">
@@ -105,42 +126,55 @@
 		</div>
 	</div>
 	</div>
+</section>	
 
-	<!------Contact Me------>
-	<div id="contact-me" class="contact-me">
-		
-	 <section id="contact-me" class="contact-me">
+	<!------Contact sectoin STARTS--------->
+	<section id="contact">
 
-			<h2>
-				Contact Me
-			</h2> 
+		<div class="contact-me">
 
+			<div class="contact-text">
+
+				<h2>
+					Contact Me
+				</h2>
+				
+			</div>
+
+			<!------Links to socials--------->
 			<div class="social">
 				<a href="https://github.com/shawnjoseph1"><i class="fab fa-github"></i></a>
 				<a href="https://www.linkedin.com/in/shawn-joseph-53985823b/"><i class="fab fa-linkedin"></i></a>
 			</div>
+				    
+					<!------Contact me form--------->
+					<div class="contact-form">
+					<form action="index.php" method="post">
 
-			<div class="contact-form">
-				<form>
-				   <label for="contact-name">Your Name</label>
-				   <input type="text" id="contact-name" placeholder="Your Name" />
-			  
-				   <label for="contact-message">Message</label>
-				   <textarea id="contact-message" placeholder="Message"></textarea>
-					</form>
-				</div>
+					<!------Name section--------->
+					<label for="contact-name">Your Name</label>
+					<input type="text" name="name" placeholder="Name" required>
 
-				<div class="contact-btn">
-					<a href="#" class="send-btn">Send</a>
-				
-		</section>
-	</div>
+					<!------Email section--------->
+					<label for="contact-message">Your Email</label>
+					<input type="email" name="email" placeholder="Email" required>
+
+					<!------Message section--------->
+					<label for="contact-message">Message</label>
+					<textarea name="message" placeholder="Message" required></textarea>
+
+					<!------Send Button--------->
+					<button class="send-button">Send</button>
+
+				</form>
+			</div>
+		</div>
+		
+	</section>
+	<!------Contact sectoin ENDS--------->	
 
 	<!------footer start--------->
 			<footer class="footer">
-				<p class="end">Copyright By Shawn Joseph</p>
-
-				<p>&copy; 2020 Shawn Joseph</p> 
 
 				<div class="to-top">
 					<a href="#hero"><i class="fas fa-angle-up"></i></a>
@@ -149,8 +183,8 @@
 
 			</footer>
 
-			
-
-			
+			<!------footer end--------->
 </body>
 </html>
+	
+
